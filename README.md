@@ -1,4 +1,3 @@
-# unix_terminal_commands    
 
 # Unix Commands Cheatsheet    
 
@@ -31,11 +30,30 @@
 *Path to Working Folder.*   
 
     Usage:   
-    Always without arguments: Checks what is the current folder we are in.   
+    Allways without arguments: Checks what is the current folder you are in.   
        
     Example Usage:   
     pwd
    
 
+ ## **mkdir**   
+*Makes a directory.*   
 
-pwd is command that shows you the current directory
+    Usage:   
+    Allways with an parameter: is a command to make a folder. *Test* is the name you gave to the folder.    
+    
+    Example Usage:   
+    mkdir test  
+    
+    
+  ## **. and ..**   
+*Targets current or parent directory.*   
+
+    Usage:   
+    Allways after a command: **.** Targets the current directory.   
+    Allways after a command: **..** Targets the parent directory.     
+    
+    Example Usage:   
+    cd
+    cd test  
+
