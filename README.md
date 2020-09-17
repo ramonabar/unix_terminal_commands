@@ -50,10 +50,24 @@
 *Targets current or parent directory.*   
 
     Usage:   
-    Allways after a command: **.** Targets the current directory.   
+    Allways after a command: **.** Targets the current directory. _Test_ is the current folder.  
     Allways after a command: **..** Targets the parent directory.     
     
     Example Usage:   
-    cd
-    cd test  
+    ls ./test
+    cd ..  
 
+
+## **man**   
+*Invokes the built-in manual and shows how commands work and what arguments you can give to them.*   
+
+    Usage:   
+    Allways after a command: **.** Targets the current directory. *Test* is the current folder.  
+    Allways after a command: **..** Targets the parent directory.     
+    
+    Example Usage:   
+    ls ./test
+    cd ..  
+    
+    
+    
