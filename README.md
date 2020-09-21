@@ -70,11 +70,76 @@
     cd ..  
     
     
- #**touch**
- *Creats a file i n the current directory*
+ ## **touch**
+ *Creates a file in the current directory*
  
     Usage:
     Allways with an parameter: is a command to make a file. *Hello* is the name you gave to the file.    
     
     Example Usage:   
     touch hello.py  
+    
+    
+ ## **cp**
+ *Copy: use this command to copy files or folders*
+ 
+    Usage:
+    First argument for the cp command the **source file** and the second argument is the **destination file**.   
+    To copy directories pass additional argument **-r** (*recursive operation*).      
+    
+    Example Usage:   
+    cp testfile testfile_copy   
+    cp  -r testdir testdir_copy   
+    
+    
+ ## **mv**
+ *Move: use this command to move or rename files or folders*   
+ 
+    Usage:
+    First argument for the mv command the **source file** and the second argument is the **destination file**.   
+     
+    Example Usage:   
+    mv testfile testfile_copy   
+   
+   
+ ## **rm**
+ *Remove: use this command to remove or rename files or folders*     
+ 
+    Usage:   
+    To remove files: first the command for the rm and then the name of the file.     
+    To remove directories pass additional argument **-r** (*recursive operation*).       
+     
+    Example Usage:     
+    rm testfile      
+    rm -r testdir   
+   
+   
+  ## **~**
+ *Tilde: points to home folder*     
+ 
+    Usage:   
+    Use the **~** character to navigate to your home directory ot to move a file from a current directory to our **home/testdir/code** folder.   
+     
+    Example Usage:     
+    mv testfile ~/testdir/code/testfile    
+    cd ~/tesstdir/code   
+    
+    
+ ## **clear**
+ *Clear the terminal*     
+ 
+    Usage:   
+    Use *clear* command to clear the terminal.   
+     
+    Example Usage:     
+    clear    
+    
+    
+ ## **history**
+ *Shows the commands that we have used*     
+ 
+    Usage:   
+    Use *history* command to view the commands you have used.   
+     
+    Example Usage:     
+    history    
