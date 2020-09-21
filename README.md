@@ -136,7 +136,7 @@
     
     
  ## **history**
- *Shows the commands that we have used*     
+ *Shows the commands that you have used*     
  
     Usage:   
     Use *history* command to view the commands you have used.   
