@@ -70,4 +70,11 @@
     cd ..  
     
     
+ #**touch**
+ *Creats a file i n the current directory*
+ 
+    Usage:
+    Allways with an parameter: is a command to make a file. *Hello* is the name you gave to the file.    
     
+    Example Usage:   
+    touch hello.py  
