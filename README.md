@@ -62,19 +62,20 @@
 *Invokes the built-in manual and shows how commands work and what arguments you can give to them.*   
 
     Usage:   
-    Allways after a command: **.** Targets the current directory. *Test* is the current folder.  
-    Allways after a command: **..** Targets the parent directory.     
+    Arguments are the parameters you give after the actual command. 
+    To view how the commands work and what arguments you can give for them, you can use the built-in manual. 
+    You can invoke the built-in manual by typing man commandName, replacing commandName with the command you want more information of. 
+    You can always exit the manual pressing q.    
     
     Example Usage:   
-    ls ./test
-    cd ..  
+    man ls  
     
     
  ## **touch**
  *Creates a file in the current directory*
  
     Usage:
-    Allways with an parameter: is a command to make a file. *Hello* is the name you gave to the file.    
+    Allways with an parameter: is a command to make a file. *hello* is the name you gave to the file.    
     
     Example Usage:   
     touch hello.py  
@@ -115,7 +116,7 @@
    
    
   ## **~**
- *Tilde: points to home folder*     
+ *Tilde: Always points to home folder*     
  
     Usage:   
     Use the **~** character to navigate to your home directory ot to move a file from a current directory to our **home/testdir/code** folder.   
